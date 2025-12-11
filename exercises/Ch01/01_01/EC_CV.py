@@ -13,6 +13,8 @@ import matplotlib.pyplot as plt
 
 # Let's define a function for this:
 
+#Line added by MK
+
 def adapt_PNG(the_PNG):
     the_PNG = the_PNG[:,:,:3]      # Step 1
     the_PNG = the_PNG * 255        # Step 2
